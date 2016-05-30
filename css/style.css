@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*wrapper(大枠)*/
+#wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+/*ページの一番上に戻る*/
+#page-top {
+    width: 50px;
+    height: 50px;
+    background-color: #030304;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+/*ページの一番上に戻る(文字)*/
+#page-top p {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+    color: #92e5fe;
+    text-align: center;
+}
+/*画像*/
+#wrapper #main-imaage {
+    width: 1200px;
+    height: 400px;
+}
+/*お知らせ*/
+#wrapper #info {
+    width: 800px;
+    height: 300px;
+    margin: 20px 0px 30px 30px;
+    float: left;
+}
+#wrapper #info h2 {
+    width: 790px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    color: #0b303b;
+    background-color: #28a6cc;
+}
+/*お知らせの中*/
+#wrapper #info div {
+    width: 798px;
+    height: 249px;
+    border: 1px solid #408ca3;
+}
+#wrapper #info div p {
+    font-size: 23px;
+    padding: 0px 0px 0px 20px;
+    text-decoration: underline;
+}
+/*categoryの中身*/
+#wrapper #category {
+    float: right;
+    width: 150px;
+    margin: 20px 100px 30px 0px;
+    border: 1px solid #408ca3;
+}
+#wrapper #category li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #394548;
+}
