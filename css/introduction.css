@@ -25,64 +25,77 @@
     color: #92e5fe;
     text-align: center;
 }
-/*画像*/
-#wrapper #main-imaage {
-    width: 1200px;
-    height: 400px;
+
+/*フッター(文字のカラー変更)*/
+footer {
+    color: #b0c4de;
 }
-/*お知らせ*/
-#wrapper #info {
+/*上記は消さないようにする*/
+/*画像の上に文字*/
+#contents {
+    height: 80px;
+    width: 500px;
+    /*background-color: rgba(0,0,255,0.1);*/
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    top: 440px;
+    right: 270px;
+    /*text-align: center;*/
+}
+#main-image {
+    margin: 10px;
     width: 800px;
-    height: 300px;
-    margin: 20px 100px 30px 0px;
-    float: right;
-}
-#wrapper #info h2 {
-    width: 790px;
-    height: 50px;
-    line-height: 50px;
-    margin: 0px;
-    padding: 0px 0px 0px 10px;
-    color: #92e5fe;
-    background-color: #28a6cc;
-}
-/*お知らせの中*/
-#wrapper #info div {
-    width: 798px;
-    height: 249px;
-    border: 1px solid #408ca3;
-}
-#wrapper #info div p {
-    font-size: 23px;
-    padding: 0px 0px 0px 20px;
-    text-decoration: underline;
-}
-/*categoryの中身*/
-#wrapper #category {
+    height: 400px;
     float: left;
-    width: 150px;
-    margin: 20px 0px 30px 30px;
-    border: 1px solid #408ca3;
+    background-color: #b0c4de;
+    /*overflow: hidden;
+    position: relative;*/
 }
-#wrapper #category li {
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    color: #394548;
+#main-image img {
+    /*width: auto;*/
+    /*height: 400px;*/
+}
+#side_bar {
+    width: 370px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 400px;
+    float: right;
+    /*background-color: #a0522d;*/
+}
+#side_bar ul {
+    width: 350px;
+    padding: 0 0 0 10px;
+}
+#side_bar li {
+    border-bottom:dotted 1px #a9a9a9;
+    list-style: none;
+    font-size: 19px;
 }
 .clear_box {
     clear: both;
 }
-#content {
-    padding-left: 20px;
-    width: 880px;
-    height: 220px;
-    margin: 0px auto;
+#info {
+    width: 370px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 400px;
+    float: right;
 }
-#content .box {
-    width: 200px;
-    float: left;
-    height: 200px;
-    background-color: #408ca3;
-    margin-right: 20px;
+.btn3 {
+    font-size: 30px;
+    border-bottom:dotted 1px #a9a9a9;
+}
+.btn3 a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: .5em;
+	border-bottom: 3px double #ccc;
+}
+#contetnt {
+    width: 780px;
+    margin: 0 0 0 10px;
 }
